@@ -87,6 +87,7 @@ form {
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
+    width: 50%;
 }
 .formGruop {
     display: flex;
@@ -101,4 +102,37 @@ form input{
     height: 30px;
     font-size: 20px;
     padding: 10px;
+}
+#box {
+    display: flex;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+#box input[type="checkbox"] {
+    background: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    width: 15px;
+    height: 15px;
+    margin-right: 0;
+}
+#buttonLogin {
+    background: rgba(12, 112, 242, 0.9);
+    box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
+    border-radius: 10px;
+    width: 100%;
+    height: 52px;
+    margin-top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    cursor: pointer;
 }
